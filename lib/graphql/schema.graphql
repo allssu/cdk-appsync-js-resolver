@@ -1,0 +1,11 @@
+#
+# /lib/graphql/schema.graphql
+#
+type Dog {
+  status: String!
+  message: String!
+}
+
+type Query {
+  getDog: Dog
+}
